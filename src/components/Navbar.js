@@ -1,10 +1,14 @@
 import React from 'react';
+import './navbar.css'; 
 
 function Navbar() {
   return (
-    <div className="container">
-        
-    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/Projects">Projects</a>
+      <a href="#">About me</a>
+      <a href="#">Contact</a>
+    </nav>
   );
 }
 

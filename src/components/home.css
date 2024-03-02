@@ -4,6 +4,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     overflow-x: hidden; 
+    font-family: Poppins;
+	  padding: none;
   }
   
   .container { 
@@ -15,3 +17,11 @@ body {
     margin: 30px auto;
     max-width: 600px;
   }
+
+  .parallax-effect { 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 400px;
+  } 
+  

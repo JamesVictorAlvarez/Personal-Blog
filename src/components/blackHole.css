@@ -1,0 +1,67 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+
+  body, html {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hold {
+    position: relative; /* Establish context for centering */
+    min-height: 100vh;  /* Example: make it take up the full screen height */
+  }
+
+  #blackhole {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .ring {
+    padding: 1%;
+    border: 1px white;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow:0 0 1000px rgba(255, 255, 255, 0.01);
+    background-color: black;
+
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+  }
+
+  .ring1 {
+    padding: 1%;
+    border: 1px rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow:0 0 1000px rgb(255, 2, 2, 0.8);
+    background-color: black;
+
+    -webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;
+  }
+
+
+  @-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  @-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+    100% {
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+      transform:rotate(360deg);
+    }
+  }

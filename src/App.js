@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Videos from './components/Videos';
+import Projects from './components/Projects';
 import Github from './components/Github';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/videos" element={<Videos />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/github" element={<Github />} />
         </Routes>
       </div>

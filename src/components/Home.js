@@ -1,16 +1,52 @@
-import React from 'react';
+import React from 'react'; 
+import Tilt from 'react-parallax-tilt'; 
 import './home.css'; 
+import './blackHole.css'; 
 
 function Home() {
   return (
-    <div> {/* No extra container needed if using parallax library */}
-      <section className="stars-section">
-        <div className="description">
-          <h1>Welcome to My Space-Themed Blog</h1>
-          <p>A little about my adventures in tech, coding, and the vast unknown...</p>
+    <Tilt className="parallax-effect" tiltMaxAngleX={5} tiltMaxAngleY={5}> 
+    <div class="hold">
+      <div id="blackhole">
+      <div class="ring">
+        <div class="ring">
+          <div class="ring">
+            <div class="ring">
+              <div class="ring">
+                <div class="ring">
+                  <div class="ring">
+                    <div class="ring">
+                      <div class="ring">
+                        <div class="ring">
+                          <div class="ring">
+                            <div class="ring">
+                              <div class="ring">
+                                <div class="ring">
+                                  <div class="ring1">
+                                    <div class="ring1">
+                                      <div class="ring1">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
     </div>
+    </div>
+    
+    </Tilt> 
+    
   );
 }
 
