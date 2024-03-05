@@ -4,5 +4,27 @@
 }
 
 .text {
+    text-align: right;
+}
+
+.text2 {
     text-align: left;
 }
+
+ul {
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(84, 86, 201);  
+}
+
+img {
+    max-width: 250px; 
+    height: auto; 
+  }

@@ -10,8 +10,8 @@
   }
 
   .hold {
-    position: relative; /* Establish context for centering */
-    min-height: 100vh;  /* Example: make it take up the full screen height */
+    position: relative; 
+    min-height: 100vh;  
   }
 
   #blackhole {

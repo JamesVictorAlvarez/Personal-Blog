@@ -1,10 +1,12 @@
 import React from 'react';
 import './about.css'; 
+import myImage from '../images/AiMe.jpeg'; 
 
 function About() {
   return (
     <div class="container">
         <div class="row align-items-start mt-5">
+            <div><img src={myImage} alt="My Image" /></div>
             <div class="row pe-0 bg-dark abc mt-5">
                 <div class="col-md-6">
                     <div class="row">
@@ -17,7 +19,15 @@ function About() {
                     </div>
                 </div>
                 <div class="col-md-6">
-                    
+                    <div class="col-md-12 my-5 text2">
+                        <ul className="link-list">
+                            <li><a href=''>Instagram</a></li>
+                            <li><a href=''>Youtube</a></li>
+                            <li><a href=''>Tiktok</a></li>
+                            <li><a href=''>Twitter</a></li>
+                            <li><a href=''>Twitch</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

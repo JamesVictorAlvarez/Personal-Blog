@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div>Made in progress</div>
+    <div>In progress</div>
   );
 }
 
